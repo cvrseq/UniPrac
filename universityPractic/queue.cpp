@@ -9,13 +9,13 @@ Queue::~Queue() {
     clear();
 }
 */
-inline void Queue::insertHead(int value) { 
+void Queue::insertHead(int value) { 
     Node *newNode = new Node(value); 
     newNode -> next = head; 
     head = newNode;
 }
 
-inline void Queue::insertTail(int value) { 
+void Queue::insertTail(int value) { 
     Node *newNode = new Node(value); 
     if(head == nullptr) { 
         head = newNode;
@@ -42,7 +42,7 @@ inline void Queue::clear() {
 }
 */
 
-inline void Queue::printList() { 
+void Queue::printList() { 
     Node *temp = head; 
     while(temp == nullptr) { 
         std::cout << temp -> data << " ";
