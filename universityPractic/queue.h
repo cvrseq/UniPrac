@@ -16,6 +16,7 @@ class Queue {
 
   public:
   Queue(); 
+  ~Queue();
   void insertHead(int value); 
   void insertTail(int value);
   void deleteValue(int value);
