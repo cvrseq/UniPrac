@@ -44,7 +44,7 @@ inline void Queue::clear() {
 
 void Queue::printList() { 
     Node *temp = head; 
-    while(temp) { 
+    while(temp != nullptr) { 
         std::cout << temp -> data << " -> ";
         temp = temp -> next;
     }
