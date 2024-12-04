@@ -9,7 +9,9 @@ int main() {
 
   queue.insertTail(22);
   queue.insertTail(44);
-  
-   
+
+  queue.printList();
+
+  return 0; 
 
 }

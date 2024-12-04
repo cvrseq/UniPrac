@@ -4,11 +4,11 @@
 Queue::Queue() { 
     head = nullptr; 
 }
-
+/*
 Queue::~Queue() {
     clear();
 }
-
+*/
 inline void Queue::insertHead(int value) { 
     Node *newNode = new Node(value); 
     newNode -> next = head; 
@@ -29,7 +29,7 @@ inline void Queue::insertTail(int value) {
     temp -> next = newNode;
 }
 
-inline void Queue::deleteValue(int value) {
+/*inline void Queue::deleteValue(int value) {
 
 }
 
@@ -40,7 +40,13 @@ inline bool Queue::search(int value) {
 inline void Queue::clear() { 
 
 }
+*/
 
 inline void Queue::printList() { 
-
+    Node *temp = head; 
+    while(temp == nullptr) { 
+        std::cout << temp -> data << " ";
+        temp = temp -> next;
+    }
+    std::cout << "nullptr" << std::endl;
 }

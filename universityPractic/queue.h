@@ -16,12 +16,14 @@ class Queue {
 
   public:
   Queue(); 
-  ~Queue();
+  /*~Queue();*/
   void insertHead(int value); 
   void insertTail(int value);
+  /*
   void deleteValue(int value);
   bool search(int value); 
   void clear(); 
+  */
   void printList(); 
 };
 #endif
