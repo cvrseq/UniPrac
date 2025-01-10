@@ -55,7 +55,7 @@ brew install gcc
 sudo apt update
 sudo apt install build-essential cmake
 
-3. Сборка Проекта (если нет директории build/)
+3. Сборка Проекта 
 
 Перейдите в директорию проекта и выполните следующие команды:
 
@@ -64,6 +64,15 @@ mkdir build
 cd build
 cmake ..
 make
+
+Либо 
+
+Пересоберите проект, если есть директория build:
+rm -rf build
+mkdir build 
+cd build 
+cmake ..
+make 
 
 Эти команды создадут каталог build, настроят сборку с помощью CMake и скомпилируют проект.
 Использование
