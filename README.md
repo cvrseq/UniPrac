@@ -126,6 +126,6 @@ Test project /path/to/UniPrac/universityPractic/build
     Google Test — фреймворк для модульного тестирования.
     CMake — система управления сборкой.
 
-```txt
+
 https://github.com/cvrseq
-```
+
