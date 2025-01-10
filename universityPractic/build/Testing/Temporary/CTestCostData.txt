@@ -1,0 +1,11 @@
+QueueTest.Constructor 1 0.00219354
+QueueTest.InsertHead 1 0.002031
+QueueTest.InsertTail 1 0.00214721
+QueueTest.DeleteValueExisting 1 0.00392233
+QueueTest.DeleteValueNonExisting 1 0.00226696
+QueueTest.ClearQueue 1 0.00234804
+QueueTest.Search 1 0.00235279
+QueueTest.DeleteHead 1 0.00211158
+QueueTest.DeleteTail 1 0.00304317
+QueueTest.MultipleInsertDelete 1 0.00265546
+---
