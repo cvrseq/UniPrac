@@ -13,7 +13,10 @@
   - Поиск элемента (`search`)
   - Очистка всей очереди (`clear`)
   - Вывод элементов очереди (`printList`)
+<<<<<<< HEAD
   
+=======
+>>>>>>> 3e47c02 (update README.md)
 - **Оптимизация**: Добавлен указатель `tail` для оптимизации операции вставки в конец очереди до константного времени **O(1)**.
 
 - **Автоматизированное Тестирование**: Использование **Google Test** для написания и выполнения модульных тестов, обеспечивающих корректность работы очереди.
@@ -24,7 +27,10 @@
 
 UniPrac/ └── universityPractic/ ├── CMakeLists.txt ├── main.cpp ├── queue.cpp ├── queue.h └── tests/ ├── CMakeLists.txt └── test_queue.cpp └── build/
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3e47c02 (update README.md)
 - **universityPractic/**: Основная директория проекта.
 - **tests/**: Директория, содержащая тестовые файлы.
 
@@ -134,7 +140,13 @@ Test project /path/to/UniPrac/universityPractic/build
 
     Google Test — фреймворк для модульного тестирования.
     CMake — система управления сборкой.
+<<<<<<< HEAD
 
 
 https://github.com/cvrseq
 
+=======
+```
+
+https://github.com/cvrseq
+>>>>>>> 3e47c02 (update README.md)
