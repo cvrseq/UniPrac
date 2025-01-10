@@ -26,6 +26,7 @@ public:
     bool search(int value); 
     void clear(); 
     void printList(); 
+    friend class QueueAdapter;
 };
 
 #endif // QUEUE_H

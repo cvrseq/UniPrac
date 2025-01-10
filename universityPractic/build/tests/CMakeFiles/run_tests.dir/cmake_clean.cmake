@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/run_tests.dir/__/queue.cpp.o"
   "CMakeFiles/run_tests.dir/__/queue.cpp.o.d"
+  "CMakeFiles/run_tests.dir/__/queue_adapter.cpp.o"
+  "CMakeFiles/run_tests.dir/__/queue_adapter.cpp.o.d"
   "CMakeFiles/run_tests.dir/test_queue.cpp.o"
   "CMakeFiles/run_tests.dir/test_queue.cpp.o.d"
   "run_tests"

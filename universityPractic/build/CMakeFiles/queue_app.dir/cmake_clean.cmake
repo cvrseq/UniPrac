@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/queue_app.dir/main.cpp.o.d"
   "CMakeFiles/queue_app.dir/queue.cpp.o"
   "CMakeFiles/queue_app.dir/queue.cpp.o.d"
+  "CMakeFiles/queue_app.dir/queue_adapter.cpp.o"
+  "CMakeFiles/queue_app.dir/queue_adapter.cpp.o.d"
   "queue_app"
   "queue_app.pdb"
 )

@@ -100,21 +100,37 @@ tests/CMakeFiles/run_tests.dir/__/queue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/__/queue.cpp.s"
 	cd /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/queue.cpp -o CMakeFiles/run_tests.dir/__/queue.cpp.s
 
+tests/CMakeFiles/run_tests.dir/__/queue_adapter.cpp.o: tests/CMakeFiles/run_tests.dir/flags.make
+tests/CMakeFiles/run_tests.dir/__/queue_adapter.cpp.o: /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/queue_adapter.cpp
+tests/CMakeFiles/run_tests.dir/__/queue_adapter.cpp.o: tests/CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/run_tests.dir/__/queue_adapter.cpp.o"
+	cd /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/run_tests.dir/__/queue_adapter.cpp.o -MF CMakeFiles/run_tests.dir/__/queue_adapter.cpp.o.d -o CMakeFiles/run_tests.dir/__/queue_adapter.cpp.o -c /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/queue_adapter.cpp
+
+tests/CMakeFiles/run_tests.dir/__/queue_adapter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/__/queue_adapter.cpp.i"
+	cd /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/queue_adapter.cpp > CMakeFiles/run_tests.dir/__/queue_adapter.cpp.i
+
+tests/CMakeFiles/run_tests.dir/__/queue_adapter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/__/queue_adapter.cpp.s"
+	cd /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/queue_adapter.cpp -o CMakeFiles/run_tests.dir/__/queue_adapter.cpp.s
+
 # Object files for target run_tests
 run_tests_OBJECTS = \
 "CMakeFiles/run_tests.dir/test_queue.cpp.o" \
-"CMakeFiles/run_tests.dir/__/queue.cpp.o"
+"CMakeFiles/run_tests.dir/__/queue.cpp.o" \
+"CMakeFiles/run_tests.dir/__/queue_adapter.cpp.o"
 
 # External object files for target run_tests
 run_tests_EXTERNAL_OBJECTS =
 
 tests/run_tests: tests/CMakeFiles/run_tests.dir/test_queue.cpp.o
 tests/run_tests: tests/CMakeFiles/run_tests.dir/__/queue.cpp.o
+tests/run_tests: tests/CMakeFiles/run_tests.dir/__/queue_adapter.cpp.o
 tests/run_tests: tests/CMakeFiles/run_tests.dir/build.make
 tests/run_tests: lib/libgtest_main.a
 tests/run_tests: lib/libgtest.a
 tests/run_tests: tests/CMakeFiles/run_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable run_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable run_tests"
 	cd /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run_tests.dir/link.txt --verbose=$(VERBOSE)
 	cd /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests && /opt/homebrew/bin/cmake -D TEST_TARGET=run_tests -D TEST_EXECUTABLE=/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests/run_tests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=run_tests_TESTS -D CTEST_FILE=/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests/run_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P /opt/homebrew/share/cmake/Modules/GoogleTestAddTests.cmake
 

@@ -15,6 +15,7 @@ add_subdirectory(tests)
 set(SOURCES
     main.cpp
     queue.cpp
+    queue_adapter.cpp
 )
 
 

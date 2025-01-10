@@ -297,6 +297,30 @@ queue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_app.dir/build.make CMakeFiles/queue_app.dir/queue.cpp.s
 .PHONY : queue.cpp.s
 
+queue_adapter.o: queue_adapter.cpp.o
+.PHONY : queue_adapter.o
+
+# target to build an object file
+queue_adapter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_app.dir/build.make CMakeFiles/queue_app.dir/queue_adapter.cpp.o
+.PHONY : queue_adapter.cpp.o
+
+queue_adapter.i: queue_adapter.cpp.i
+.PHONY : queue_adapter.i
+
+# target to preprocess a source file
+queue_adapter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_app.dir/build.make CMakeFiles/queue_app.dir/queue_adapter.cpp.i
+.PHONY : queue_adapter.cpp.i
+
+queue_adapter.s: queue_adapter.cpp.s
+.PHONY : queue_adapter.s
+
+# target to generate assembly for a file
+queue_adapter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_app.dir/build.make CMakeFiles/queue_app.dir/queue_adapter.cpp.s
+.PHONY : queue_adapter.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -322,6 +346,9 @@ help:
 	@echo "... queue.o"
 	@echo "... queue.i"
 	@echo "... queue.s"
+	@echo "... queue_adapter.o"
+	@echo "... queue_adapter.i"
+	@echo "... queue_adapter.s"
 .PHONY : help
 
 

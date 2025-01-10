@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/main.cpp" "CMakeFiles/queue_app.dir/main.cpp.o" "gcc" "CMakeFiles/queue_app.dir/main.cpp.o.d"
   "/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/queue.cpp" "CMakeFiles/queue_app.dir/queue.cpp.o" "gcc" "CMakeFiles/queue_app.dir/queue.cpp.o.d"
+  "/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/queue_adapter.cpp" "CMakeFiles/queue_app.dir/queue_adapter.cpp.o" "gcc" "CMakeFiles/queue_app.dir/queue_adapter.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,12 +1,61 @@
-
-
 #include "gtest/gtest.h"
 #include "../queue.h"
+#include "../queue_adapter.h"
+
+
+TEST(QueueAdapterTest, SetAndGetElement) {
+    Queue q;
+    q.insertTail(10);
+    q.insertTail(20);
+    q.insertTail(30);
+
+    QueueAdapter adapter(q);
+
+
+    EXPECT_EQ(adapter.GetElement(0), 10);
+    EXPECT_EQ(adapter.GetElement(1), 20);
+    EXPECT_EQ(adapter.GetElement(2), 30);
+
+
+    adapter.SetElement(1, 25);
+    EXPECT_EQ(adapter.GetElement(1), 25);
+    EXPECT_TRUE(q.search(25));
+    EXPECT_FALSE(q.search(20));
+}
+
+
+TEST(QueueAdapterTest, GetElementOutOfRange) {
+    Queue q;
+    q.insertTail(10);
+    QueueAdapter adapter(q);
+
+    EXPECT_THROW(adapter.GetElement(1), std::out_of_range);
+}
+
+
+TEST(QueueAdapterTest, SetElementOutOfRange) {
+    Queue q;
+    q.insertTail(10);
+    QueueAdapter adapter(q);
+
+    EXPECT_THROW(adapter.SetElement(1, 20), std::out_of_range);
+}
+
+
+TEST(QueueAdapterTest, NegativeIndex) {
+    Queue q;
+    q.insertTail(10);
+    QueueAdapter adapter(q);
+
+    EXPECT_THROW(adapter.GetElement(-1), std::out_of_range);
+    EXPECT_THROW(adapter.SetElement(-1, 20), std::out_of_range);
+}
+
 
 
 TEST(QueueTest, Constructor) {
     Queue q;
-    EXPECT_FALSE(q.search(10)) << "Очередь должна быть пустой изначально.";
+    EXPECT_FALSE(q.search(10)) << "The queue must be empty initially";
 }
 
 

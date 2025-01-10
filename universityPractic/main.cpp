@@ -1,5 +1,7 @@
 #include "queue.h"
+#include "queue_adapter.h"
 #include <iostream>
+
 
 int main() {
     Queue queue; 
@@ -14,6 +16,25 @@ int main() {
 
     std::cout << "Current queue: ";
     queue.printList();
+
+     QueueAdapter adapter(queue);
+
+    
+    try {
+        std::cout << "Setting element 100 to position 2" << std::endl;
+        adapter.SetElement(2, 100); 
+    } catch (const std::out_of_range& e) {
+        std::cerr << "Error installing element: " << e.what() << std::endl;
+    }
+
+    
+    try {
+        int index = 2;
+        int value = adapter.GetElement(index);
+        std::cout << "Element in position " << index << ": " << value << std::endl;
+    } catch (const std::out_of_range& e) {
+        std::cerr << "Error receiving item: " << e.what() << std::endl;
+    }
 
     int searchValue1 = 50;
     int searchValue2 = 100;

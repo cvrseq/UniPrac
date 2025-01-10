@@ -209,6 +209,30 @@ __/queue.cpp.s:
 	cd /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/run_tests.dir/build.make tests/CMakeFiles/run_tests.dir/__/queue.cpp.s
 .PHONY : __/queue.cpp.s
 
+__/queue_adapter.o: __/queue_adapter.cpp.o
+.PHONY : __/queue_adapter.o
+
+# target to build an object file
+__/queue_adapter.cpp.o:
+	cd /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/run_tests.dir/build.make tests/CMakeFiles/run_tests.dir/__/queue_adapter.cpp.o
+.PHONY : __/queue_adapter.cpp.o
+
+__/queue_adapter.i: __/queue_adapter.cpp.i
+.PHONY : __/queue_adapter.i
+
+# target to preprocess a source file
+__/queue_adapter.cpp.i:
+	cd /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/run_tests.dir/build.make tests/CMakeFiles/run_tests.dir/__/queue_adapter.cpp.i
+.PHONY : __/queue_adapter.cpp.i
+
+__/queue_adapter.s: __/queue_adapter.cpp.s
+.PHONY : __/queue_adapter.s
+
+# target to generate assembly for a file
+__/queue_adapter.cpp.s:
+	cd /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/run_tests.dir/build.make tests/CMakeFiles/run_tests.dir/__/queue_adapter.cpp.s
+.PHONY : __/queue_adapter.cpp.s
+
 test_queue.o: test_queue.cpp.o
 .PHONY : test_queue.o
 
@@ -250,6 +274,9 @@ help:
 	@echo "... __/queue.o"
 	@echo "... __/queue.i"
 	@echo "... __/queue.s"
+	@echo "... __/queue_adapter.o"
+	@echo "... __/queue_adapter.i"
+	@echo "... __/queue_adapter.s"
 	@echo "... test_queue.o"
 	@echo "... test_queue.i"
 	@echo "... test_queue.s"

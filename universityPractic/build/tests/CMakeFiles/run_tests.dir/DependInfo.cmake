@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/queue.cpp" "tests/CMakeFiles/run_tests.dir/__/queue.cpp.o" "gcc" "tests/CMakeFiles/run_tests.dir/__/queue.cpp.o.d"
+  "/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/queue_adapter.cpp" "tests/CMakeFiles/run_tests.dir/__/queue_adapter.cpp.o" "gcc" "tests/CMakeFiles/run_tests.dir/__/queue_adapter.cpp.o.d"
   "/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/tests/test_queue.cpp" "tests/CMakeFiles/run_tests.dir/test_queue.cpp.o" "gcc" "tests/CMakeFiles/run_tests.dir/test_queue.cpp.o.d"
   )
 

@@ -1,10 +1,118 @@
-Start testing: Jan 10 23:57 MSK
+Start testing: Jan 11 00:52 MSK
 ----------------------------------------------------------
-1/10 Testing: QueueTest.Constructor
-1/10 Test: QueueTest.Constructor
+1/14 Testing: QueueAdapterTest.SetAndGetElement
+1/14 Test: QueueAdapterTest.SetAndGetElement
+Command: "/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests/run_tests" "--gtest_filter=QueueAdapterTest.SetAndGetElement" "--gtest_also_run_disabled_tests"
+Directory: /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests
+"QueueAdapterTest.SetAndGetElement" start time: Jan 11 00:52 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = QueueAdapterTest.SetAndGetElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QueueAdapterTest
+[ RUN      ] QueueAdapterTest.SetAndGetElement
+[       OK ] QueueAdapterTest.SetAndGetElement (0 ms)
+[----------] 1 test from QueueAdapterTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"QueueAdapterTest.SetAndGetElement" end time: Jan 11 00:52 MSK
+"QueueAdapterTest.SetAndGetElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/14 Testing: QueueAdapterTest.GetElementOutOfRange
+2/14 Test: QueueAdapterTest.GetElementOutOfRange
+Command: "/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests/run_tests" "--gtest_filter=QueueAdapterTest.GetElementOutOfRange" "--gtest_also_run_disabled_tests"
+Directory: /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests
+"QueueAdapterTest.GetElementOutOfRange" start time: Jan 11 00:52 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = QueueAdapterTest.GetElementOutOfRange
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QueueAdapterTest
+[ RUN      ] QueueAdapterTest.GetElementOutOfRange
+[       OK ] QueueAdapterTest.GetElementOutOfRange (0 ms)
+[----------] 1 test from QueueAdapterTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"QueueAdapterTest.GetElementOutOfRange" end time: Jan 11 00:52 MSK
+"QueueAdapterTest.GetElementOutOfRange" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/14 Testing: QueueAdapterTest.SetElementOutOfRange
+3/14 Test: QueueAdapterTest.SetElementOutOfRange
+Command: "/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests/run_tests" "--gtest_filter=QueueAdapterTest.SetElementOutOfRange" "--gtest_also_run_disabled_tests"
+Directory: /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests
+"QueueAdapterTest.SetElementOutOfRange" start time: Jan 11 00:52 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = QueueAdapterTest.SetElementOutOfRange
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QueueAdapterTest
+[ RUN      ] QueueAdapterTest.SetElementOutOfRange
+[       OK ] QueueAdapterTest.SetElementOutOfRange (0 ms)
+[----------] 1 test from QueueAdapterTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"QueueAdapterTest.SetElementOutOfRange" end time: Jan 11 00:52 MSK
+"QueueAdapterTest.SetElementOutOfRange" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/14 Testing: QueueAdapterTest.NegativeIndex
+4/14 Test: QueueAdapterTest.NegativeIndex
+Command: "/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests/run_tests" "--gtest_filter=QueueAdapterTest.NegativeIndex" "--gtest_also_run_disabled_tests"
+Directory: /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests
+"QueueAdapterTest.NegativeIndex" start time: Jan 11 00:52 MSK
+Output:
+----------------------------------------------------------
+Running main() from /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = QueueAdapterTest.NegativeIndex
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QueueAdapterTest
+[ RUN      ] QueueAdapterTest.NegativeIndex
+[       OK ] QueueAdapterTest.NegativeIndex (0 ms)
+[----------] 1 test from QueueAdapterTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"QueueAdapterTest.NegativeIndex" end time: Jan 11 00:52 MSK
+"QueueAdapterTest.NegativeIndex" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/14 Testing: QueueTest.Constructor
+5/14 Test: QueueTest.Constructor
 Command: "/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests/run_tests" "--gtest_filter=QueueTest.Constructor" "--gtest_also_run_disabled_tests"
 Directory: /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests
-"QueueTest.Constructor" start time: Jan 10 23:57 MSK
+"QueueTest.Constructor" start time: Jan 11 00:52 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -23,15 +131,15 @@ Note: Google Test filter = QueueTest.Constructor
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"QueueTest.Constructor" end time: Jan 10 23:57 MSK
+"QueueTest.Constructor" end time: Jan 11 00:52 MSK
 "QueueTest.Constructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/10 Testing: QueueTest.InsertHead
-2/10 Test: QueueTest.InsertHead
+6/14 Testing: QueueTest.InsertHead
+6/14 Test: QueueTest.InsertHead
 Command: "/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests/run_tests" "--gtest_filter=QueueTest.InsertHead" "--gtest_also_run_disabled_tests"
 Directory: /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests
-"QueueTest.InsertHead" start time: Jan 10 23:57 MSK
+"QueueTest.InsertHead" start time: Jan 11 00:52 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -50,15 +158,15 @@ Note: Google Test filter = QueueTest.InsertHead
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"QueueTest.InsertHead" end time: Jan 10 23:57 MSK
+"QueueTest.InsertHead" end time: Jan 11 00:52 MSK
 "QueueTest.InsertHead" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/10 Testing: QueueTest.InsertTail
-3/10 Test: QueueTest.InsertTail
+7/14 Testing: QueueTest.InsertTail
+7/14 Test: QueueTest.InsertTail
 Command: "/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests/run_tests" "--gtest_filter=QueueTest.InsertTail" "--gtest_also_run_disabled_tests"
 Directory: /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests
-"QueueTest.InsertTail" start time: Jan 10 23:57 MSK
+"QueueTest.InsertTail" start time: Jan 11 00:52 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -77,15 +185,15 @@ Note: Google Test filter = QueueTest.InsertTail
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"QueueTest.InsertTail" end time: Jan 10 23:57 MSK
+"QueueTest.InsertTail" end time: Jan 11 00:52 MSK
 "QueueTest.InsertTail" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/10 Testing: QueueTest.DeleteValueExisting
-4/10 Test: QueueTest.DeleteValueExisting
+8/14 Testing: QueueTest.DeleteValueExisting
+8/14 Test: QueueTest.DeleteValueExisting
 Command: "/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests/run_tests" "--gtest_filter=QueueTest.DeleteValueExisting" "--gtest_also_run_disabled_tests"
 Directory: /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests
-"QueueTest.DeleteValueExisting" start time: Jan 10 23:57 MSK
+"QueueTest.DeleteValueExisting" start time: Jan 11 00:52 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -104,15 +212,15 @@ Note: Google Test filter = QueueTest.DeleteValueExisting
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"QueueTest.DeleteValueExisting" end time: Jan 10 23:57 MSK
+"QueueTest.DeleteValueExisting" end time: Jan 11 00:52 MSK
 "QueueTest.DeleteValueExisting" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/10 Testing: QueueTest.DeleteValueNonExisting
-5/10 Test: QueueTest.DeleteValueNonExisting
+9/14 Testing: QueueTest.DeleteValueNonExisting
+9/14 Test: QueueTest.DeleteValueNonExisting
 Command: "/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests/run_tests" "--gtest_filter=QueueTest.DeleteValueNonExisting" "--gtest_also_run_disabled_tests"
 Directory: /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests
-"QueueTest.DeleteValueNonExisting" start time: Jan 10 23:57 MSK
+"QueueTest.DeleteValueNonExisting" start time: Jan 11 00:52 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -131,15 +239,15 @@ Note: Google Test filter = QueueTest.DeleteValueNonExisting
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"QueueTest.DeleteValueNonExisting" end time: Jan 10 23:57 MSK
+"QueueTest.DeleteValueNonExisting" end time: Jan 11 00:52 MSK
 "QueueTest.DeleteValueNonExisting" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-6/10 Testing: QueueTest.ClearQueue
-6/10 Test: QueueTest.ClearQueue
+10/14 Testing: QueueTest.ClearQueue
+10/14 Test: QueueTest.ClearQueue
 Command: "/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests/run_tests" "--gtest_filter=QueueTest.ClearQueue" "--gtest_also_run_disabled_tests"
 Directory: /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests
-"QueueTest.ClearQueue" start time: Jan 10 23:57 MSK
+"QueueTest.ClearQueue" start time: Jan 11 00:52 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -158,15 +266,15 @@ Note: Google Test filter = QueueTest.ClearQueue
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"QueueTest.ClearQueue" end time: Jan 10 23:57 MSK
+"QueueTest.ClearQueue" end time: Jan 11 00:52 MSK
 "QueueTest.ClearQueue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-7/10 Testing: QueueTest.Search
-7/10 Test: QueueTest.Search
+11/14 Testing: QueueTest.Search
+11/14 Test: QueueTest.Search
 Command: "/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests/run_tests" "--gtest_filter=QueueTest.Search" "--gtest_also_run_disabled_tests"
 Directory: /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests
-"QueueTest.Search" start time: Jan 10 23:57 MSK
+"QueueTest.Search" start time: Jan 11 00:52 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -185,15 +293,15 @@ Note: Google Test filter = QueueTest.Search
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"QueueTest.Search" end time: Jan 10 23:57 MSK
+"QueueTest.Search" end time: Jan 11 00:52 MSK
 "QueueTest.Search" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-8/10 Testing: QueueTest.DeleteHead
-8/10 Test: QueueTest.DeleteHead
+12/14 Testing: QueueTest.DeleteHead
+12/14 Test: QueueTest.DeleteHead
 Command: "/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests/run_tests" "--gtest_filter=QueueTest.DeleteHead" "--gtest_also_run_disabled_tests"
 Directory: /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests
-"QueueTest.DeleteHead" start time: Jan 10 23:57 MSK
+"QueueTest.DeleteHead" start time: Jan 11 00:52 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -212,15 +320,15 @@ Note: Google Test filter = QueueTest.DeleteHead
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"QueueTest.DeleteHead" end time: Jan 10 23:57 MSK
+"QueueTest.DeleteHead" end time: Jan 11 00:52 MSK
 "QueueTest.DeleteHead" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-9/10 Testing: QueueTest.DeleteTail
-9/10 Test: QueueTest.DeleteTail
+13/14 Testing: QueueTest.DeleteTail
+13/14 Test: QueueTest.DeleteTail
 Command: "/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests/run_tests" "--gtest_filter=QueueTest.DeleteTail" "--gtest_also_run_disabled_tests"
 Directory: /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests
-"QueueTest.DeleteTail" start time: Jan 10 23:57 MSK
+"QueueTest.DeleteTail" start time: Jan 11 00:52 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -239,15 +347,15 @@ Note: Google Test filter = QueueTest.DeleteTail
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"QueueTest.DeleteTail" end time: Jan 10 23:57 MSK
+"QueueTest.DeleteTail" end time: Jan 11 00:52 MSK
 "QueueTest.DeleteTail" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-10/10 Testing: QueueTest.MultipleInsertDelete
-10/10 Test: QueueTest.MultipleInsertDelete
+14/14 Testing: QueueTest.MultipleInsertDelete
+14/14 Test: QueueTest.MultipleInsertDelete
 Command: "/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests/run_tests" "--gtest_filter=QueueTest.MultipleInsertDelete" "--gtest_also_run_disabled_tests"
 Directory: /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/tests
-"QueueTest.MultipleInsertDelete" start time: Jan 10 23:57 MSK
+"QueueTest.MultipleInsertDelete" start time: Jan 11 00:52 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -266,8 +374,8 @@ Note: Google Test filter = QueueTest.MultipleInsertDelete
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"QueueTest.MultipleInsertDelete" end time: Jan 10 23:57 MSK
+"QueueTest.MultipleInsertDelete" end time: Jan 11 00:52 MSK
 "QueueTest.MultipleInsertDelete" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jan 10 23:57 MSK
+End testing: Jan 11 00:52 MSK

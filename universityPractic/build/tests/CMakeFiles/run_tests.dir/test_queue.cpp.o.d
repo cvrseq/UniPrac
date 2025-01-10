@@ -925,4 +925,5 @@ tests/CMakeFiles/run_tests.dir/test_queue.cpp.o: \
   /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
   /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
   /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
-  /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/tests/../queue.h
+  /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/tests/../queue.h \
+  /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/tests/../queue_adapter.h
