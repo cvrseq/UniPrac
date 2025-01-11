@@ -16,6 +16,7 @@ set(SOURCES
     main.cpp
     queue.cpp
     queue_adapter.cpp
+    quickSort_exp.cpp
 )
 
 
