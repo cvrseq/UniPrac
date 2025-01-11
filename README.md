@@ -13,10 +13,10 @@
   - Поиск элемента (`search`)
   - Очистка всей очереди (`clear`)
   - Вывод элементов очереди (`printList`)
-<<<<<<< HEAD
+
   
 =======
->>>>>>> 3e47c02 (update README.md)
+
 - **Оптимизация**: Добавлен указатель `tail` для оптимизации операции вставки в конец очереди до константного времени **O(1)**.
 
 - **Автоматизированное Тестирование**: Использование **Google Test** для написания и выполнения модульных тестов, обеспечивающих корректность работы очереди.
@@ -27,10 +27,9 @@
 
 UniPrac/ └── universityPractic/ ├── CMakeLists.txt ├── main.cpp ├── queue.cpp ├── queue.h └── tests/ ├── CMakeLists.txt └── test_queue.cpp └── build/
 
-<<<<<<< HEAD
+
 
 =======
->>>>>>> 3e47c02 (update README.md)
 - **universityPractic/**: Основная директория проекта.
 - **tests/**: Директория, содержащая тестовые файлы.
 
@@ -98,6 +97,32 @@ Queue after deletion: 70 -> 60 -> 10 -> 22 -> 44 -> nullptr
 Clearing the queue.
 Queue after cleaning: nullptr
 
+также и ./selection_sort и ./quickSort_exp
+
+Пример вывода для ./quickSort_exp:
+
+Array size Sorting time (mcs)
+------------------------------------------
+500              106 mcs
+1000             346 mcs
+3000             869 mcs
+5000             1532 mcs
+8000             2283 mcs
+10000            2344 mcs
+20000            4321 mcs
+30000            5903 mcs
+
+Пример вывода для ./selection_sort:
+
+N = 500  nop = 132681  theoretical (n*log2(n)) = 4482.89  ratio = 29.5972
+N = 1000  nop = 516569  theoretical (n*log2(n)) = 9965.78  ratio = 51.8343
+N = 3000  nop = 4556601  theoretical (n*log2(n)) = 34652.2  ratio = 131.495
+N = 5000  nop = 12597731  theoretical (n*log2(n)) = 61438.6  ratio = 205.046
+N = 8000  nop = 32164494  theoretical (n*log2(n)) = 103726  ratio = 310.09
+N = 10000  nop = 50211414  theoretical (n*log2(n)) = 132877  ratio = 377.879
+N = 20000  nop = 200445670  theoretical (n*log2(n)) = 285754  ratio = 701.462
+N = 30000  nop = 450697469  theoretical (n*log2(n)) = 446180  ratio = 1010.12
+
 Запуск Автоматизированных Тестов
 
 Проект включает в себя модульные тесты, написанные с использованием Google Test. Для их запуска выполните одну из следующих команд из директории build:
@@ -140,13 +165,9 @@ Test project /path/to/UniPrac/universityPractic/build
 
     Google Test — фреймворк для модульного тестирования.
     CMake — система управления сборкой.
-<<<<<<< HEAD
 
 
 https://github.com/cvrseq
 
 =======
-```
 
-https://github.com/cvrseq
->>>>>>> 3e47c02 (update README.md)
