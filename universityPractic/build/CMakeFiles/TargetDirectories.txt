@@ -1,4 +1,6 @@
 /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/CMakeFiles/queue_app.dir
+/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/CMakeFiles/quickSort_exp.dir
+/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/CMakeFiles/selection_sort.dir
 /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/CMakeFiles/test.dir
 /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/CMakeFiles/edit_cache.dir
 /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/CMakeFiles/rebuild_cache.dir

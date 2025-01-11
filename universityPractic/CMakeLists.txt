@@ -16,8 +16,11 @@ set(SOURCES
     main.cpp
     queue.cpp
     queue_adapter.cpp
-    quickSort_exp.cpp
+    
 )
 
-
 add_executable(queue_app ${SOURCES})
+
+add_executable(quickSort_exp quickSort_exp.cpp)
+
+add_executable(selection_sort selection_sort.cpp)

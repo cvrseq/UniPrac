@@ -64,11 +64,15 @@ CMAKE_BINARY_DIR = /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universit
 
 # The main recursive "all" target.
 all: CMakeFiles/queue_app.dir/all
+all: CMakeFiles/quickSort_exp.dir/all
+all: CMakeFiles/selection_sort.dir/all
 all: tests/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/queue_app.dir/codegen
+codegen: CMakeFiles/quickSort_exp.dir/codegen
+codegen: CMakeFiles/selection_sort.dir/codegen
 codegen: tests/codegen
 .PHONY : codegen
 
@@ -78,6 +82,8 @@ preinstall: tests/preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/queue_app.dir/clean
+clean: CMakeFiles/quickSort_exp.dir/clean
+clean: CMakeFiles/selection_sort.dir/clean
 clean: tests/clean
 .PHONY : clean
 
@@ -202,6 +208,70 @@ CMakeFiles/queue_app.dir/clean:
 .PHONY : CMakeFiles/queue_app.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/quickSort_exp.dir
+
+# All Build rule for target.
+CMakeFiles/quickSort_exp.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quickSort_exp.dir/build.make CMakeFiles/quickSort_exp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quickSort_exp.dir/build.make CMakeFiles/quickSort_exp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/CMakeFiles --progress-num=13,14 "Built target quickSort_exp"
+.PHONY : CMakeFiles/quickSort_exp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/quickSort_exp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/quickSort_exp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/CMakeFiles 0
+.PHONY : CMakeFiles/quickSort_exp.dir/rule
+
+# Convenience name for target.
+quickSort_exp: CMakeFiles/quickSort_exp.dir/rule
+.PHONY : quickSort_exp
+
+# codegen rule for target.
+CMakeFiles/quickSort_exp.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quickSort_exp.dir/build.make CMakeFiles/quickSort_exp.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/CMakeFiles --progress-num=13,14 "Finished codegen for target quickSort_exp"
+.PHONY : CMakeFiles/quickSort_exp.dir/codegen
+
+# clean rule for target.
+CMakeFiles/quickSort_exp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quickSort_exp.dir/build.make CMakeFiles/quickSort_exp.dir/clean
+.PHONY : CMakeFiles/quickSort_exp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/selection_sort.dir
+
+# All Build rule for target.
+CMakeFiles/selection_sort.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/selection_sort.dir/build.make CMakeFiles/selection_sort.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/selection_sort.dir/build.make CMakeFiles/selection_sort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/CMakeFiles --progress-num=19,20 "Built target selection_sort"
+.PHONY : CMakeFiles/selection_sort.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/selection_sort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/selection_sort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/CMakeFiles 0
+.PHONY : CMakeFiles/selection_sort.dir/rule
+
+# Convenience name for target.
+selection_sort: CMakeFiles/selection_sort.dir/rule
+.PHONY : selection_sort
+
+# codegen rule for target.
+CMakeFiles/selection_sort.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/selection_sort.dir/build.make CMakeFiles/selection_sort.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/CMakeFiles --progress-num=19,20 "Finished codegen for target selection_sort"
+.PHONY : CMakeFiles/selection_sort.dir/codegen
+
+# clean rule for target.
+CMakeFiles/selection_sort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/selection_sort.dir/build.make CMakeFiles/selection_sort.dir/clean
+.PHONY : CMakeFiles/selection_sort.dir/clean
+
+#=============================================================================
 # Target rules for target tests/CMakeFiles/run_tests.dir
 
 # All Build rule for target.
@@ -209,7 +279,7 @@ tests/CMakeFiles/run_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles
 tests/CMakeFiles/run_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/run_tests.dir/build.make tests/CMakeFiles/run_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/run_tests.dir/build.make tests/CMakeFiles/run_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/CMakeFiles --progress-num=13,14,15,16 "Built target run_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/CMakeFiles --progress-num=15,16,17,18 "Built target run_tests"
 .PHONY : tests/CMakeFiles/run_tests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -226,7 +296,7 @@ run_tests: tests/CMakeFiles/run_tests.dir/rule
 # codegen rule for target.
 tests/CMakeFiles/run_tests.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/run_tests.dir/build.make tests/CMakeFiles/run_tests.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/CMakeFiles --progress-num=13,14,15,16 "Finished codegen for target run_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aleksandrsuslin/Desktop/tmp_practics/UniPrac/universityPractic/build/CMakeFiles --progress-num=15,16,17,18 "Finished codegen for target run_tests"
 .PHONY : tests/CMakeFiles/run_tests.dir/codegen
 
 # clean rule for target.

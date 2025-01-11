@@ -185,6 +185,32 @@ queue_app/fast:
 .PHONY : queue_app/fast
 
 #=============================================================================
+# Target rules for targets named quickSort_exp
+
+# Build rule for target.
+quickSort_exp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 quickSort_exp
+.PHONY : quickSort_exp
+
+# fast build rule for target.
+quickSort_exp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quickSort_exp.dir/build.make CMakeFiles/quickSort_exp.dir/build
+.PHONY : quickSort_exp/fast
+
+#=============================================================================
+# Target rules for targets named selection_sort
+
+# Build rule for target.
+selection_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 selection_sort
+.PHONY : selection_sort
+
+# fast build rule for target.
+selection_sort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/selection_sort.dir/build.make CMakeFiles/selection_sort.dir/build
+.PHONY : selection_sort/fast
+
+#=============================================================================
 # Target rules for targets named run_tests
 
 # Build rule for target.
@@ -321,6 +347,54 @@ queue_adapter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_app.dir/build.make CMakeFiles/queue_app.dir/queue_adapter.cpp.s
 .PHONY : queue_adapter.cpp.s
 
+quickSort_exp.o: quickSort_exp.cpp.o
+.PHONY : quickSort_exp.o
+
+# target to build an object file
+quickSort_exp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quickSort_exp.dir/build.make CMakeFiles/quickSort_exp.dir/quickSort_exp.cpp.o
+.PHONY : quickSort_exp.cpp.o
+
+quickSort_exp.i: quickSort_exp.cpp.i
+.PHONY : quickSort_exp.i
+
+# target to preprocess a source file
+quickSort_exp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quickSort_exp.dir/build.make CMakeFiles/quickSort_exp.dir/quickSort_exp.cpp.i
+.PHONY : quickSort_exp.cpp.i
+
+quickSort_exp.s: quickSort_exp.cpp.s
+.PHONY : quickSort_exp.s
+
+# target to generate assembly for a file
+quickSort_exp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quickSort_exp.dir/build.make CMakeFiles/quickSort_exp.dir/quickSort_exp.cpp.s
+.PHONY : quickSort_exp.cpp.s
+
+selection_sort.o: selection_sort.cpp.o
+.PHONY : selection_sort.o
+
+# target to build an object file
+selection_sort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/selection_sort.dir/build.make CMakeFiles/selection_sort.dir/selection_sort.cpp.o
+.PHONY : selection_sort.cpp.o
+
+selection_sort.i: selection_sort.cpp.i
+.PHONY : selection_sort.i
+
+# target to preprocess a source file
+selection_sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/selection_sort.dir/build.make CMakeFiles/selection_sort.dir/selection_sort.cpp.i
+.PHONY : selection_sort.cpp.i
+
+selection_sort.s: selection_sort.cpp.s
+.PHONY : selection_sort.s
+
+# target to generate assembly for a file
+selection_sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/selection_sort.dir/build.make CMakeFiles/selection_sort.dir/selection_sort.cpp.s
+.PHONY : selection_sort.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -339,7 +413,9 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... queue_app"
+	@echo "... quickSort_exp"
 	@echo "... run_tests"
+	@echo "... selection_sort"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -349,6 +425,12 @@ help:
 	@echo "... queue_adapter.o"
 	@echo "... queue_adapter.i"
 	@echo "... queue_adapter.s"
+	@echo "... quickSort_exp.o"
+	@echo "... quickSort_exp.i"
+	@echo "... quickSort_exp.s"
+	@echo "... selection_sort.o"
+	@echo "... selection_sort.i"
+	@echo "... selection_sort.s"
 .PHONY : help
 
 

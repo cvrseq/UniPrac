@@ -1,0 +1,15 @@
+QueueAdapterTest.SetAndGetElement 1 0.00255042
+QueueAdapterTest.GetElementOutOfRange 1 0.00288192
+QueueAdapterTest.SetElementOutOfRange 1 0.00267171
+QueueAdapterTest.NegativeIndex 1 0.00218292
+QueueTest.Constructor 1 0.00223954
+QueueTest.InsertHead 1 0.00231904
+QueueTest.InsertTail 1 0.002151
+QueueTest.DeleteValueExisting 1 0.00207908
+QueueTest.DeleteValueNonExisting 1 0.00224033
+QueueTest.ClearQueue 1 0.00220879
+QueueTest.Search 1 0.00238508
+QueueTest.DeleteHead 1 0.00221179
+QueueTest.DeleteTail 1 0.00225808
+QueueTest.MultipleInsertDelete 1 0.00196413
+---

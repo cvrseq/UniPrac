@@ -164,3 +164,4 @@ TEST(QueueTest, MultipleInsertDelete) {
     EXPECT_FALSE(q.search(50)) << "Element 50 must be removed";
     EXPECT_FALSE(q.search(-1)) << "Element -1 must not be present";
 }
+
