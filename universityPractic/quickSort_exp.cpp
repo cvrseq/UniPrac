@@ -5,7 +5,7 @@
 #include <random>
 #include <cmath>
 
-
+// compile (clang++ -std=c++17 quickSort_exp.cpp -o quicksort)
 void quickSort(std::vector<int>& arr, int left, int right) {
     if (left >= right) return;
     
